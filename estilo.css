@@ -1,0 +1,21 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1 ;
+}
+
+
+ul{
+
+    display: flex;
+    gap: 3em;
+}
+
+li {
+    list-style: none;
+    
+    
+    
+}
