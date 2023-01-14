@@ -7,17 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens de Fundo</title>
     <style>
+        body{
+            background-image: url("imagens/wallpaper001.jpg");
+        }
+        header{
+            display: block;
+            text-align: center;
+        }
         .quadrado{
             width: 300px;
             height: 300px;
             border: 1px black solid;
+            display: inline-block;
+            
+        }
+
+        #q1{
+            background-color: aqua;
+        }
+
+        #q2{
+            background-image: linear-gradient(to top , yellow,blue);
+        }
+
+        #q3{
+            background-image: url("imagens/pattern001.png");
         }
         
     </style>
 </head>
 <body>
-    <div class="quadrado" id="q1"></div>
-    <div class="quadrado" id="q2"></div>
-    <div class="quadrado" id="q3"></div>
+    <header>
+        <div class="quadrado" id="q1"></div>
+        <div class="quadrado" id="q2"></div>
+        <div class="quadrado" id="q3"></div>
+    </header>
 </body>
 </html>
